@@ -1,0 +1,95 @@
+.attendance-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.attendance-container h2 {
+  margin-bottom: 16px;
+  color: #333;
+  text-align: center;
+}
+
+.attendance-container input[type="date"] {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.attendance-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.attendance-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  transition: background 0.2s ease;
+}
+
+.attendance-list li:hover {
+  background: #f1f1f1;
+}
+
+.attendance-emp {
+  flex: 1;
+  font-weight: 500;
+  color: #444;
+}
+
+.attendance-actions button {
+  margin-left: 8px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+.attendance-actions button:nth-child(1) {
+  background: #4caf50;
+  color: white;
+}
+
+.attendance-actions button:nth-child(1):hover {
+  background: #43a047;
+}
+
+.attendance-actions button:nth-child(2) {
+  background: #f44336;
+  color: white;
+}
+
+.attendance-actions button:nth-child(2):hover {
+  background: #d32f2f;
+}
+
+.attendance-actions button:nth-child(3) {
+  background: #ff9800;
+  color: white;
+}
+
+.attendance-actions button:nth-child(3):hover {
+  background: #fb8c00;
+}
+
+.attendance-container p {
+  margin-top: 16px;
+  text-align: center;
+  font-weight: bold;
+  color: #555;
+}

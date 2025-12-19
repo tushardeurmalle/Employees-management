@@ -1,0 +1,44 @@
+/* App.css */
+
+/* Container */
+.app-container {
+  padding: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.app-container h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #007bff;
+}
+
+/* Navigation */
+.nav-menu {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  color: #333;
+  font-weight: bold;
+  background-color: #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.nav-menu a:hover {
+  background-color: #007bff;
+  color: #fff;
+  transform: scale(1.05);
+}
